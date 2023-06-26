@@ -1,4 +1,4 @@
-# ksalvarischallenge2
+# ksalvarisportfolio
 Challenge 2 of coding bootcamp
 
 ## Challenge 2 User Story
