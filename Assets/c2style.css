@@ -1,0 +1,61 @@
+:root {
+    --blk: #000000;
+    --turq: #2aefcb;
+    --pnk: #e866ec;  
+    --bvio: #8a2be2; 
+    --wht: aliceblue;
+}
+
+
+h1,
+h2 {
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--blk);
+}
+
+h1 {
+    font-size: 4rem;
+    background-color: var(--turq);
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+header {
+width: 90%;
+margin: 0 auto;
+padding: 2.rem;
+text-align: left;
+}
+
+main {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+}      
+
+    .about-me {
+        display: flexbox;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: darkmagenta;
+        color: aliceblue;
+    }
+
