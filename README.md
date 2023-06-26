@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## URL of Deployed Application 
-TBC once deployed 
+(https://ksalvaris.github.io/ksalvarischallenge2/)
 
 ## Screenshots
 ![Alt text](image.png)
