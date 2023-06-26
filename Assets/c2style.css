@@ -1,61 +1,102 @@
-:root {
-    --blk: #000000;
-    --turq: #2aefcb;
-    --pnk: #e866ec;  
-    --bvio: #8a2be2; 
-    --wht: aliceblue;
-}
-
-
-h1,
-h2 {
-    margin-bottom: 0.8rem;
-    font-weight: 700;
-    line-height: 1.1;
-    color: var(--blk);
-}
-
-h1 {
-    font-size: 4rem;
-    background-color: var(--turq);
-}
-
-h2 {
-    font-size: 3.5rem;
-}
-
-p {
-    font-size: 1.5rem;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: aquamarine;
+    padding: 15px;
 }
 
 header {
-width: 90%;
-margin: 0 auto;
-padding: 2.rem;
-text-align: left;
+    background-color: darkorchid;
+    font-size: 20pt;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: midnightblue;
 }
 
-main {
-    width: 90%;
-    margin: 2rem auto;
+nav {
+    align-content: center;
 }
 
+p {
+    padding: 10px;
+    line-height: 1rem;
+}
 
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
 
-main {
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    background-color: darkmagenta;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: bold;
+    color:indigo;
+    text-decoration: overline;
+    align-content: center;
+}
+
+#aboutkat {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50px;
-}      
+    flex-direction:column;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(49, 2, 55);
+    background-color: cornflowerblue;
+    justify-content: flex-start;
+    padding: 15px;
+}
 
-    .about-me {
-        display: flexbox;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: darkmagenta;
-        color: aliceblue;
-    }
+div {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin-right: 20px;
+}
 
+#katswork {
+    display: flex;
+    flex-direction:column;
+    border-style: solid;
+    border-width: 10px;
+    border-color:rgb(49, 2, 55);
+    background-color: rgb(104, 210, 240);
+    justify-content: flex-start;   
+    padding: 15px;
+}
+
+#katsresume {
+    display: flex;
+    flex-direction:column;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(49, 2, 55);
+    background-color: cornflowerblue;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    background-color: cornflowerblue;
+    justify-content: flex-start;
+    padding: 15px;
+}
