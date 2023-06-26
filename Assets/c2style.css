@@ -4,22 +4,24 @@ body {
     color: black;
     margin-left: 400px;
     margin-right: 400px;
-    background-color: aquamarine;
+    background-color: rgb(211, 229, 245);
     padding: 15px;
 }
 
 header {
-    background-color: darkorchid;
+    color: rgb(2, 21, 37);
+    background-color: rgba(117, 68, 141, 0.712);
     font-size: 20pt;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
-    text-align: left;
+    text-align: center;
     border-style: solid;
     border-width: 3px;
     border-color: midnightblue;
 }
 
+/*had issues here moving nav bar to the right of the page*/
 nav {
     align-content: center;
 }
@@ -30,7 +32,7 @@ p {
 }
 
 a:link {
-    color: blue;
+    color: rgb(40, 40, 107);
     text-decoration: underline;
 }
 
@@ -45,7 +47,7 @@ a:hover {
 h1 {
     font-size: 14pt;
     font-weight: bold;
-    color:indigo;
+    color:rgb(41, 27, 51);
     text-decoration: overline;
     align-content: center;
 }
@@ -53,11 +55,12 @@ h1 {
 #aboutkat {
     display: flex;
     flex-direction:column;
-    border-style: dashed;
+    border-style: solid;
     border-width: 10px;
     border-color: rgb(49, 2, 55);
-    background-color: cornflowerblue;
+    background-color: rgba(247, 162, 221, 0.767);
     justify-content: flex-start;
+    align-items: center;
     padding: 15px;
 }
 
@@ -74,19 +77,21 @@ div {
     border-style: solid;
     border-width: 10px;
     border-color:rgb(49, 2, 55);
-    background-color: rgb(104, 210, 240);
+    background-color: rgba(247, 162, 221, 0.767);
     justify-content: flex-start;   
+    align-items: center;
     padding: 15px;
 }
 
 #katsresume {
     display: flex;
     flex-direction:column;
-    border-style: dashed;
+    border-style: solid;
     border-width: 10px;
     border-color: rgb(49, 2, 55);
-    background-color: cornflowerblue;
+    background-color: rgba(247, 162, 221, 0.767);
     justify-content: flex-start;
+    align-items: center;
     padding: 15px;
 }
 
@@ -96,7 +101,16 @@ div {
     border-style: solid;
     border-width: 10px;
     border-color: black;
-    background-color: cornflowerblue;
+    background-color: rgba(247, 162, 221, 0.767);
     justify-content: flex-start;
+    align-items: center;
     padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    body,
+    nav,
+    section {
+        flex-direction: column;
+    }    
 }
